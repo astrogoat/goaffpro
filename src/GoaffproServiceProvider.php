@@ -2,11 +2,11 @@
 
 namespace Astrogoat\Goaffpro;
 
+use Astrogoat\Goaffpro\Settings\GoaffproSettings;
 use Helix\Lego\Apps\App;
 use Helix\Lego\Apps\AppPackageServiceProvider;
-use Spatie\LaravelPackageTools\Package;
-use Astrogoat\Goaffpro\Settings\GoaffproSettings;
 use Helix\Lego\Apps\Services\IncludeFrontendViews;
+use Spatie\LaravelPackageTools\Package;
 
 class GoaffproServiceProvider extends AppPackageServiceProvider
 {

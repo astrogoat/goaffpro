@@ -2,9 +2,9 @@
 
 namespace Astrogoat\Goaffpro\Tests;
 
+use Astrogoat\Goaffpro\GoaffproServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use Astrogoat\Goaffpro\GoaffproServiceProvider;
 
 class TestCase extends Orchestra
 {
